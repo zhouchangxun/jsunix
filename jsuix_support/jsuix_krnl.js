@@ -4,7 +4,7 @@
 // JS/UIX is NOT a free software (see faq in history.txt).
 
 // basic term os / kernel
-
+console.log('import krnl.js')
 var conf_cols=80;
 var conf_rows=24;
 var conf_rowheigt=15;
@@ -1851,4 +1851,5 @@ function termOpen() {
 	krnlInit();
 }
 
+console.log('import krnl.js...ok!')
 /// eof
